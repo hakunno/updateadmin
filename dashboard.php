@@ -228,14 +228,15 @@ $current_page = basename($_SERVER['PHP_SELF']); //SAM CHANGES
         font-weight: 500;
     }
     }
-          /* HIGHLIGHT - SAM CHANGES */
-      .sidebar .active-menu {
-          background: black;
-          color: white;
-      }
-      .sidebar .active-menu a {
-          color: white;
-      }
+    
+    /* HIGHLIGHT - SAM CHANGES */
+    .sidebar .active-menu {
+        background: black;
+        color: white;
+    }
+    .sidebar .active-menu a {
+        color: white;
+    }
 
 </style>
   
