@@ -5,7 +5,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] != 'admin') {
     header('Location: ../authentication/login.php');
     exit;
 }
-$current_page = basename($_SERVER['PHP_SELF']); 
+$current_page = basename($_SERVER['PHP_SELF']); //SAM CHANGES//
 ?>
 
 <!DOCTYPE html>
@@ -228,7 +228,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         font-weight: 500;
     }
     }
-          /* Highlight active menu item */
+          /* HIGHLIGHT - SAM CHANGES */
       .sidebar .active-menu {
           background: black;
           color: white;
