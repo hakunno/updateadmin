@@ -5,7 +5,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] != 'admin') {
     header('Location: ../authentication/login.php');
     exit;
 }
-$current_page = basename($_SERVER['PHP_SELF']); //SAM CHANGES//
+$current_page = basename($_SERVER['PHP_SELF']); //SAM CHANGES
 ?>
 
 <!DOCTYPE html>
